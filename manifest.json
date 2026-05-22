@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "AI Website Blocker",
+  "version": "1.0",
+
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
