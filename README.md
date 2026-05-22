@@ -7,27 +7,32 @@ A Chrome Extension designed to improve productivity by blocking distracting webs
 ## ✨ Features
 
 ### 🌐 Website Blocking
+
 - Add websites to block
 - Prevent access to distracting websites
 - Redirect users to a custom blocked page
 
 ### 🗑️ Website Management
+
 - Delete blocked websites individually
 - Clear all blocked websites with one click
 
 ### 📊 Block Counter
+
 - Displays total blocked websites count dynamically
 
 ### ⏳ Pomodoro Focus Timer
+
 - Built-in focus timer for productivity improvement
-- Helps users maintain focused study/work sessions
 
 ### 🌙 Modern Dark UI
+
 - Dark theme popup interface
 - Responsive and clean design
 - Interactive button hover effects
 
 ### 💾 Persistent Storage
+
 - Uses Chrome Storage API
 - Blocked websites remain saved after browser restart
 
@@ -48,29 +53,67 @@ A Chrome Extension designed to improve productivity by blocking distracting webs
 
 bash
 AI Website Blocker/
-│
+
+├── assets/
+│   ├── blocked.page.png.png
+│   ├── chrome Extension.png.png
+│   ├── focus-timer.png.png
+│   ├── popup-ui.png.png
+│   └── website-list.png.png
+
 ├── index.html
 ├── style.css
 ├── script.js
 ├── manifest.json
 ├── background.js
 ├── blocked.html
-├── README.md
+└── README.md
 
+
+---
+
+## 📸 Screenshots
+
+### Popup UI
+
+![Popup UI](assets/popup-ui.png.png)
+
+### Website List
+
+![Website List](assets/website-list.png.png)
+
+### Focus Timer
+
+![Focus Timer](assets/focus-timer.png.png)
+
+### Blocked Page
+
+![Blocked Page](assets/blocked.page.png.png)
+
+### Chrome Extension
+
+![Chrome Extension](assets/chrome%20Extension.png.png)
 
 ---
 
 ## ⚙️ Installation
 
 1. Download project files
+
 2. Open Chrome Browser
+
 3. Open:
+
 
 chrome://extensions/
 
+
 4. Enable Developer Mode
+
 5. Click Load Unpacked
+
 6. Select project folder
+
 7. Extension ready ✅
 
 ---
@@ -78,15 +121,23 @@ chrome://extensions/
 ## 🚀 How To Use
 
 1. Open AI Website Blocker Extension
+
 2. Enter website name
 
 Example:
 
+
 youtube.com
+
+
+
 instagram.com
 
+
 3. Click Add Website
+
 4. Open blocked website
+
 5. Extension blocks access automatically
 
 ---
@@ -111,7 +162,7 @@ instagram.com
 
 ---
 
-## 👨‍💻 Developer
+## 👩‍💻 Developer
 
 Shriya Chaurasia
 
@@ -119,12 +170,13 @@ B.Tech Student
 
 ---
 
-## 📜 License
+## 📄 License
 
 This project is created for educational and learning purposes.
+
 ---
 
-## 🔮 Future Enhancements
+## 🚀 Future Enhancements
 
 - AI productivity suggestions
 - Daily focus analytics
@@ -171,3 +223,4 @@ Inspired by productivity and focus management tools.
 ## ⭐ Support
 
 If you like this project, give it a star ⭐
+
